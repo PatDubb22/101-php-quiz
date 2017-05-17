@@ -1,0 +1,51 @@
+
+.question {
+    text-align: center;
+    color: #c8dff7;
+    padding-top: 1px;
+     
+}
+
+
+
+body {
+    
+    margin: 0px;
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    background-color: #79CFCE;
+    color: white;
+    text-align: center;
+ 
+}
+
+.hr1 {
+    color: #c8dff7;
+    line-height: 3px;
+    
+}
+.subtitle {
+  color: #c8dff7;
+  text-align: center;
+  padding-right: 110px;
+ 
+ 
+  
+}
+    
+
+
+.sbutton {
+    background-color:white;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    color: #79CFCE;
+   
+    
+    
+}
