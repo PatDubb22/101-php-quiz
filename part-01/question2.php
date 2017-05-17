@@ -1,12 +1,11 @@
 <?php
-
+	session_start();
 	include 'quiz.php';
-
+	
 	$current_score = $_GET["current_score"];
 
-	if ($_GET["answer"] == $answers[0]) {
+	if ($_GET["answer"] == $answers[0]) 
 		$current_score += 1;
-	}
 
 ?>
 
@@ -18,9 +17,11 @@
 <body>
 
 	<div class="score">
-		<?php 
-			echo "Your current score is " . $current_score;
-		?>
+	 <?php 
+		
+		echo "Your current score is " . $current_score;
+		 
+	?>	
 	</div>
 
 	<div class="question">

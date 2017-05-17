@@ -1,10 +1,8 @@
 <?php
+	session_start();
 	include 'quiz.php';
 
 ?>
-
-
-
 
 <DOCTYPE <!DOCTYPE html>
 <html>
@@ -13,11 +11,11 @@
        <title>"Design your Window"</title>
     </head>
     <body>
-    	<div class="question">
-    	<h5>3 QUESTIONS</h5>
+    <header>
+       	<h5>3 QUESTIONS</h5>
     	<hr class="hr1">
     	
-    </div>
+     </header>
     	
 	    <div class="quiz-title" </div>
 	    <h1>How to dress-up a Window quiz.</h1>

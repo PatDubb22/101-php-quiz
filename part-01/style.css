@@ -2,11 +2,9 @@
 .question {
     text-align: center;
     color: #c8dff7;
-    padding-top: 1px;
-     
+    padding-top: 3px;
+
 }
-
-
 
 body {
     
@@ -30,12 +28,8 @@ body {
   color: #c8dff7;
   text-align: center;
   padding-right: 110px;
- 
- 
-  
-}
-    
 
+}
 
 .sbutton {
     background-color:white;

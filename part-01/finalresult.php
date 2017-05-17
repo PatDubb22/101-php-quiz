@@ -1,5 +1,5 @@
 <?php
-
+	session_start();
 	include 'quiz.php';
 
 	$current_score = $_GET["current_score"];
@@ -20,6 +20,7 @@
 	<div class="final-result">
 		<?php 
 			echo "You've finished the quiz! Your final score is " . $current_score . " out of 4.";
+		
 		?>
 	</div>
 
