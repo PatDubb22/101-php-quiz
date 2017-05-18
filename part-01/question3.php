@@ -6,7 +6,7 @@
 
 	if ($_GET["answer"] == $answers[1]) {
 		$current_score += 1;
-	}
+	}	
 
 ?>
 
@@ -15,6 +15,12 @@
 <head>
 	<title></title>
 </head>
+	<style>
+        body{
+            background-color:#79CFCE;
+            color: white;
+        }
+    </style>
 <body>
 
 	<div class="score">
@@ -30,12 +36,16 @@
 	<div class="answer">
 		<form action="question4.php">
 			<input type="radio" name="answer" value="A">A<br>
+			<hr>
 			<input type="radio" name="answer" value="B">B<br>
+			<hr>
 			<input type="radio" name="answer" value="C">C<br>
+			<hr>
 			<input type="radio" name="answer" value="D">D<br>
-			<input type="submit" value="Next Question">
-
-			<input type="hidden" name="current_score" value="<?php echo $current_score ; ?>">
+			<hr>
+			<input type="submit" name="answer" value="Next Question">
+			
+	    	<input type="hidden" name="current_score" value="<?php echo $current_score ; ?>">
 		</form>
 	</div>
 

@@ -10,13 +10,19 @@
        <link rel="stylesheet" href="style.css" />
        <title>"Design your Window"</title>
     </head>
+    <style>
+        body{
+            background-color:#79CFCE;
+            color: white;
+        }
+    </style>
     <body>
-    <header>
-       	<h5>3 QUESTIONS</h5>
-    	<hr class="hr1">
-    	
+    <div id="center_maker">
+      <header id="page_header">
+       	<h5 class="hr1">3 QUESTIONS</h5>
+    	<hr>
      </header>
-    	
+    </div>	
 	    <div class="quiz-title" </div>
 	    <h1>How to dress-up a Window quiz.</h1>
 	    
@@ -25,9 +31,7 @@
 	    </div>
 
     <div class="sbutton">
-		<a href="question1.php" style="text-decoration:none;">START</a>
-		
-       
+		<a class="st2" href="question4.php" style="text-decoration:none;">START</a>
 	</div>
 	
 	

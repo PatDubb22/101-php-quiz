@@ -15,6 +15,12 @@
 <head>
 	<title></title>
 </head>
+	<style>
+        body{
+            background-color:#79CFCE;
+            color: white;
+        }
+    </style>
 <body>
 
 	<div class="score">
@@ -30,9 +36,13 @@
 	<div class="answer">
 		<form action="finalresult.php">
 			<input type="radio" name="answer" value="A">A<br>
+			<hr>
 			<input type="radio" name="answer" value="B">B<br>
+			<hr>
 			<input type="radio" name="answer" value="C">C<br>
+			<hr>
 			<input type="radio" name="answer" value="D">D<br>
+			<hr>
 			<input type="submit" value="Next Question">
 
 			<input type="hidden" name="current_score" value="<?php echo $current_score ; ?>">

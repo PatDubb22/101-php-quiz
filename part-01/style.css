@@ -2,13 +2,19 @@
 .question {
     text-align: center;
     color: #c8dff7;
-    padding-top: 3px;
-
+    padding-top: 1px;
 }
+
+/*header css starts here*/
+#page_header {
+  border:0px solid blue;
+  padding-bottom: 0px;
+ }
+
 
 body {
     
-    margin: 0px;
+    margin: 5px;
     line-height: 15px;
     font-size: 16px;
     font-weight: 400px;
@@ -21,25 +27,41 @@ body {
 
 .hr1 {
     color: #c8dff7;
-    line-height: 3px;
+    line-height: 6px;
     
 }
+
+.st2 {
+    color: green;
+    font-weight: 10px;
+}
+
 .subtitle {
   color: #c8dff7;
   text-align: center;
   padding-right: 110px;
+padding-top: 10px; 
 
 }
 
 .sbutton {
-    background-color:white;
+    background-color: white;
+    color: white;
     border: none;
     padding: 15px 32px;
     display: inline-block;
     font-size: 16px;
     border-radius: 30px;
     color: #79CFCE;
-   
-    
-    
 }
+.answer {
+    background-color:white;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    color: #79CFCE;
+}
+

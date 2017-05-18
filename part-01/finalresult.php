@@ -15,6 +15,12 @@
 <head>
 	<title></title>
 </head>
+	<style>
+        body{
+            background-color:#79CFCE;
+            color: white;
+        }
+    </style>
 <body>
 
 	<div class="final-result">
