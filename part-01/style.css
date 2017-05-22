@@ -2,18 +2,14 @@
 .question {
     text-align: center;
     color: #c8dff7;
-    padding-top: 1px;
+    padding-top: 6px;
 }
 
 /*header css starts here*/
-#page_header {
-  border:0px solid blue;
-  padding-bottom: 0px;
- }
 
 
 body {
-    
+
     margin: 5px;
     line-height: 15px;
     font-size: 16px;
@@ -21,26 +17,27 @@ body {
     font-family: sans-serif;
     background-color: #79CFCE;
     color: white;
-    text-align: center;
- 
-}
+ }
 
-.hr1 {
-    color: #c8dff7;
-    line-height: 6px;
-    
-}
+.quest1 {
+    font-size: small;
+    display:flex;
+    color: #bee;
+    justify-content:center;
+   
+ }
 
 .st2 {
     color: green;
-    font-weight: 10px;
+    font-weight: bold;
+    
 }
 
 .subtitle {
   color: #c8dff7;
   text-align: center;
   padding-right: 110px;
-padding-top: 10px; 
+  padding-top: 1px; 
 
 }
 
@@ -54,14 +51,25 @@ padding-top: 10px;
     border-radius: 30px;
     color: #79CFCE;
 }
-.answer {
-    background-color:white;
+.nbutton {
+    background-color: white;
     color: white;
     border: none;
     padding: 15px 32px;
     display: inline-block;
     font-size: 16px;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #79CFCE;
+}
+
+.answer {
+    
+    font-size: 16px;
+    border-radius: 30px;
+    color: white;
+    text-align: left;
+    border-bottom-style:  5px solid blue;
+   
+    
 }
 

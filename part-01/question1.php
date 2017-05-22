@@ -26,18 +26,16 @@
 <div class="question">
 	<?php echo $quiz[0]; ?>
 </div>
-
+ 
 	<div class="answer">
+	
 	 <form action="question2.php">
 		<input type="radio" name="answer" value="A">A<br>
-		<hr>
 		<input type="radio" name="answer" value="B">B<br>
-		<hr>
 		<input type="radio" name="answer" value="C">C<br>
-		<hr>
 		<input type="radio" name="answer" value="D">D<br>
-		<hr>
-		<input type="submit" value="Next Question">
+	
+		<input class="nbutton" type="submit" value="Next Question">
 	 </form>
 	</div>
 
