@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	
 	include 'quiz.php';
 
 	$current_score = $_GET["current_score"];

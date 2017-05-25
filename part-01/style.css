@@ -27,11 +27,11 @@ body {
    
  }
 
-.st2 {
+ /*.st2 {
     color: green;
     font-weight: bold;
     
-}
+ }*/
 
 .subtitle {
   color: #c8dff7;
@@ -41,7 +41,7 @@ body {
 
 }
 
-.sbutton {
+ /.sbutton {
     background-color: white;
     color: white;
     border: none;
