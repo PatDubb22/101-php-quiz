@@ -2,9 +2,9 @@
 	
 	include 'quiz.php';
 	
-	$txt = $_GET["name"] . "\n";
+	$txt = $_GET["name"]; 
 	
-	$current_score = $_GET["text"];
+	
 
 ?>
 
@@ -35,6 +35,7 @@
 		<input type="radio" name="answer" value="D">D<br>
 	
 		<input class="nbutton" type="submit" value="Next Question">
+		<input type="hidden" name="name" value="<?php echo $txt; ?>">
 	 </form>
 	</div>
 

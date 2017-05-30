@@ -2,6 +2,7 @@
 	
 	include 'quiz.php';
 	
+	$txt = $_GET["name"]; 
 	$current_score = $_GET["current_score"];
 
 	if ($_GET["answer"] == $answers[0]) {
@@ -48,6 +49,8 @@
 			<input class="nbutton" type="submit" value="Next Question">
 
 			<input type="hidden" name="current_score" value="<?php echo $current_score ; ?>">
+			<input type="hidden" name="name" value="<?php echo $txt; ?>">
+			 
 		</form>
 	</div>
 
