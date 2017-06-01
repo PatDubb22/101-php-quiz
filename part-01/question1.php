@@ -30,9 +30,14 @@
 	
 	 <form action="question2.php">
 		<input type="radio" name="answer" value="A">A<br>
+		<hr>
 		<input type="radio" name="answer" value="B">B<br>
+		<hr>
 		<input type="radio" name="answer" value="C">C<br>
+		<hr>
 		<input type="radio" name="answer" value="D">D<br>
+		<hr>
+		
 	
 		<input class="nbutton" type="submit" value="Next Question">
 		<input type="hidden" name="name" value="<?php echo $txt; ?>">

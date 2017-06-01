@@ -46,6 +46,7 @@
 			<hr>
 			<input type="radio" name="answer" value="D">D<br>
 			<hr>
+			
 			<input class="nbutton" type="submit" value="Next Question">
 
 			<input type="hidden" name="current_score" value="<?php echo $current_score ; ?>">

@@ -1,2 +1,6 @@
-Bill,3
-3Goat,4
+
+Betty Bo,4
+Joe Sore,5
+Jane Doey,4
+Bob Blank,2
+Sam Slack,1
