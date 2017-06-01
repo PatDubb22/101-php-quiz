@@ -12,4 +12,4 @@ Edit this file directly to add your response below:
 
 ---
 
-<!-- Your response goes here. -->
+<!-- Your response goes here. --> A new file was created for question 5. The addional question was added to the quiz.php file. The changes made to question 5 included the index action and the form tag key to reflect the addition to the array answer key. The action was changed to direct results to the final page file.
